@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ecuaciones lineales: costo, ingreso y ganancia</title>
+
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 40px; 
+      line-height: 1.6; 
+      background: #f7f7f7;
+    }
+
+    h1, h2 { color: #333; }
+
+    table { 
+      border-collapse: collapse; 
+      margin-top: 15px; 
+      width: 100%;
+    }
+
+    th, td { 
+      border: 1px solid #555; 
+      padding: 8px 12px; 
+      text-align: center; 
+    }
+
+    th { background-color: #f0f0f0; }
+
+    code { 
+      background: #f7f7f7; 
+      padding: 2px 4px; 
+    }
+
+    /* --- NUEVO ESTILO AÑADIDO --- */
+    .funciones-box {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 25px;
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .funciones-box h2 {
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 20px;
+    }
+
+    .funciones-box h3 {
+        color: #34495e;
+        margin-top: 25px;
+    }
+
+    .funciones-box p {
+        font-size: 18px;
+        margin: 8px 0;
+    }
+
+    .funciones-box table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .funciones-box table th,
+    .funciones-box table td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .funciones-box table th {
+        background: #f4f4f4;
+        font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Ecuaciones lineales en economía y administración</h1>
+
+  <h2>Enunciado</h2>
+  <p>
+    Una empresa produce cuadernos. El costo fijo mensual es de <strong>$5000</strong> y el costo variable
+    por cada cuaderno es de <strong>$8</strong>. Cada cuaderno se vende a <strong>$15</strong>.
+  </p>
+  <p>
+    A partir de esta información, obtener:
+    <ul>
+      <li>La función de costo</li>
+      <li>La función de ingreso</li>
+      <li>La función de ganancia</li>
+    </ul>
+  </p>
+
+  <h2>Resolución</h2>
+
+  <!-- BLOQUE NUEVO ESTILIZADO -->
+  <div class="funciones-box">
+      <h2>Funciones: Costo, Ingreso y Ganancia</h2>
+
+      <h3>Función de costo C(x)</h3>
+      <p>El costo total es la suma del costo fijo y el costo variable por unidad:</p>
+      <p><code>C(x) = 5000 + 8x</code></p>
+
+      <h3>Función de ingreso I(x)</h3>
+      <p>El ingreso se obtiene multiplicando el precio de venta por la cantidad producida:</p>
+      <p><code>I(x) = 15x</code></p>
+
+      <h3>Función de ganancia G(x)</h3>
+      <p>La ganancia es la diferencia entre el ingreso y el costo total:</p>
+      <p><code>G(x) = 7x - 5000</code></p>
+
+      <h3>Tabla resumen</h3>
+      <table>
+          <tr>
+              <th>Concepto</th>
+              <th>Función</th>
+          </tr>
+          <tr>
+              <td>Costo</td>
+              <td><code>C(x) = 5000 + 8x</code></td>
+          </tr>
+          <tr>
+              <td>Ingreso</td>
+              <td><code>I(x) = 15x</code></td>
+          </tr>
+          <tr>
+              <td>Ganancia</td>
+              <td><code>G(x) = 7x - 5000</code></td>
+          </tr>
+      </table>
+  </div>
+
+</body>
+</html>
