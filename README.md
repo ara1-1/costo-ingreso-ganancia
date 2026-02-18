@@ -21,19 +21,3 @@ Este repositorio contiene una página web educativa desarrollada en **HTML y CSS
 
 Brindar un recurso visual y claro para estudiantes que estén aprendiendo ecuaciones lineales aplicadas a economía y administración.
 
-## 📂 Archivos principales
-
-- `index.html` — Página principal con el contenido teórico.
-- `README.md` — Este archivo, con la descripción del proyecto.
-
----
-
-Si querés, puedo agregar:
-
-- imágenes  
-- badges (como “Made with HTML”)  
-- una sección de instalación  
-- una sección de créditos  
-- o un README más largo y profesional  
-
-¿Querés que lo haga más completo o lo dejamos así?
